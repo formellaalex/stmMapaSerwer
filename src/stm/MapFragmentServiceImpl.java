@@ -13,14 +13,15 @@ public class MapFragmentServiceImpl implements MapFragmentService {
 
     @Override
     public String getMapFragment(int x1, int y1, int x2, int y2) throws IOException {
-        BufferedImage mapFragment = ImageIO
-                .read(new File("resources/zakopane.png"))
-                .getSubimage(x1, y1, x2, y2);
-        ByteArrayOutputStream baos = new ByteArrayOutputStream();
-        ImageIO.write(mapFragment, "png", baos );
-        baos.flush();
-        byte[] mapFragmentBytes = baos.toByteArray();
-        baos.close();
-        return Base64.getEncoder().encodeToString(mapFragmentBytes);
+//        BufferedImage mapFragment = ImageIO
+//                .read(new File("resources/zakopane.png"))
+//                .getSubimage(x1, y1, x2, y2);
+//        ByteArrayOutputStream baos = new ByteArrayOutputStream();
+//        ImageIO.write(mapFragment, "png", baos );
+//        baos.flush();
+//        byte[] mapFragmentBytes = baos.toByteArray();
+//        baos.close();
+//        return Base64.getEncoder().encodeToString(mapFragmentBytes);
+        return "TU POWINIEN BYC BASE64";
     }
 }
