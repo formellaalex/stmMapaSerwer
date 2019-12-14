@@ -241,12 +241,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576009184511</updated>
-      <workItem from="1576009189034" duration="10875000" />
+      <workItem from="1576009189034" duration="11768000" />
     </task>
+    <task id="LOCAL-00001" summary="Working image reading">
+      <created>1576097876254</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576097876256</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Working image reading" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working image reading" />
   </component>
   <component name="WindowStateProjectService">
     <state x="291" y="120" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576088869177">
@@ -269,6 +281,10 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="495" y="39" width="657" height="846" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1533.873@67.27.1533.873" timestamp="1576089877949" />
+    <state x="348" y="59" width="960" height="807" key="CommitChangelistDialog2" timestamp="1576097875957">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="348" y="59" width="960" height="807" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1576097875957" />
     <state x="611" y="205" width="424" height="513" key="FileChooserDialogImpl" timestamp="1576087100763">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -321,6 +337,10 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state width="1020" height="219" key="GridCell.Tab.2.right/67.27.1533.873@67.27.1533.873" timestamp="1576095567867" />
+    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1576097879357">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1533.873@67.27.1533.873" timestamp="1576097879357" />
     <state x="167" y="125" width="1333" height="675" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1576088293676">
       <screen x="67" y="27" width="1533" height="873" />
     </state>

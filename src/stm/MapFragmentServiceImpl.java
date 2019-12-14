@@ -1,6 +1,7 @@
 package stm;
 
 import javax.imageio.ImageIO;
+import javax.jws.WebParam;
 import javax.jws.WebService;
 import java.awt.image.BufferedImage;
 import java.io.ByteArrayOutputStream;
@@ -13,7 +14,12 @@ import java.util.Base64;
 public class MapFragmentServiceImpl implements MapFragmentService {
 
     @Override
-    public String getMapFragment(int x1, int y1, int x2, int y2) throws IOException {
+    public String getMapFragment(
+            @WebParam(name = "x1") int x1,
+            @WebParam(name = "y1") int y1,
+            @WebParam(name = "x2") int x2,
+            @WebParam(name = "y2") int y2
+    ) throws IOException {
         InputStream inputStream = MapFragmentServiceImpl.class.getResourceAsStream("/zakopane.png");
         BufferedImage mapFragment = ImageIO
                 .read(inputStream)
