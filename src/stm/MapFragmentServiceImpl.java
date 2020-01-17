@@ -20,7 +20,7 @@ public class MapFragmentServiceImpl implements MapFragmentService {
             @WebParam(name = "x2") int x2,
             @WebParam(name = "y2") int y2
     ) throws IOException {
-        InputStream inputStream = MapFragmentServiceImpl.class.getResourceAsStream("/zakopane.png");
+        InputStream inputStream = MapFragmentServiceImpl.class.getResourceAsStream("/suwalki.png");
         BufferedImage mapFragment = ImageIO
                 .read(inputStream)
                 .getSubimage(x1, y1, x2, y2);
